@@ -3,8 +3,8 @@ services:
     name: frontend
     env: node
     plan: free
-    buildCommand: npm install && npm run build
+    buildCommand: npm install
     startCommand: npm run dev
     envVars:
       - key: PORT
-        value: 5173
+        value: 3000  # Ensure this matches the port in vite.config.js
