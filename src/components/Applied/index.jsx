@@ -20,7 +20,7 @@ function Applied() {
       const userDetails = { user_name };
       
       
-      const url = "https://jobback1.onrender.com/applications/";
+      const url = "https://jobback-rl11.onrender.com/applications/";
 
       const options = {
         headers: {

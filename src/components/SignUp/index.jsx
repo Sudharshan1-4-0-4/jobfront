@@ -41,7 +41,7 @@ const LoginForm = () => {
     }
 
     const userDetails = { name, phone, email, password };
-    const url = "https://jobback1.onrender.com/register/";
+    const url = "https://jobback-rl11.onrender.com/register/";
     const options = {
       method: "POST",
       headers: {

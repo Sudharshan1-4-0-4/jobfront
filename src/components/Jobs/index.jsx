@@ -20,7 +20,7 @@ function Jobs() {
       const getJobs = async () => {
        
         const token = Cookies.get('jwt_token');
-        const apiUrl = `https://jobback1.onrender.com/jbss?search=${search.toLowerCase()}&employment_type=${employment_type.toLowerCase()}&amount=${amount}`;
+        const apiUrl = `https://jobback-rl11.onrender.com/jbss?search=${search.toLowerCase()}&employment_type=${employment_type.toLowerCase()}&amount=${amount}`;
         
         
         const options = {

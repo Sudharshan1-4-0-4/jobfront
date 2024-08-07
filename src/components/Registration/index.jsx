@@ -50,7 +50,7 @@ const Registration = ({ details }) => {
     }
 
     const userDetails = { id, job_name, user_name, ph_no, email, image, employment_type, packages, location };
-    const url = "https://jobback1.onrender.com/registrations/";
+    const url = "https://jobback-rl11.onrender.com/registrations/";
     const options = {
       method: "POST",
       headers: {

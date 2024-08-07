@@ -18,7 +18,7 @@ function JobItemDetails() {
   }, [id]);
   
   const getJobs = async () => {
-    const apiUrl = `https://jobback1.onrender.com/jobs/${id}`;
+    const apiUrl = `https://jobback-rl11.onrender.com/jobs/${id}`;
     const options = {
       headers: {
         Authorization: "bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoia2FpcmEiLCJpYXQiOjE3MTcxMzIyMzZ9.S0x2EsHZKwr-u7OHcDxhYmsc0ZEPFfp55x6KNStwblo",

@@ -34,7 +34,7 @@ const LoginForm = () => {
   const submitForm = async (event) => {
     event.preventDefault();
     const userDetails = { username, password };
-    const apiUrl = 'https://jobback1.onrender.com/login/';
+    const apiUrl = 'https://jobback-rl11.onrender.com/login/';
     const options = {
       method: 'POST',
       headers: {
