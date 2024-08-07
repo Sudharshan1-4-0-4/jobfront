@@ -7,4 +7,4 @@ services:
     startCommand: npm run dev
     envVars:
       - key: PORT
-        value: 3000  # Ensure this matches the port in vite.config.js
+        value: 5173  # Ensure this matches the port in vite.config.js
