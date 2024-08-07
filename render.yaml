@@ -4,7 +4,6 @@ services:
     env: static
     plan: free
     buildCommand: npm install && npm run build
-    startCommand: npm run preview # For static sites, you might not need this
     envVars:
       - key: PORT
-        value: 5173 # Ensure this matches the port specified in vite.config.js
+        value: 5173

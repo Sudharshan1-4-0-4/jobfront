@@ -8,10 +8,10 @@ export default defineConfig({
     host: '0.0.0.0'
   },
   build: {
-    outDir: 'dist', // Ensure this matches where you want your build output
+    outDir: 'dist',
     rollupOptions: {
       input: {
-        main: 'index.html' // Ensure this path is correct
+        main: 'index.html'
       }
     }
   }
