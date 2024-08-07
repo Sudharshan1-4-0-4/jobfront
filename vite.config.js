@@ -4,10 +4,15 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   plugins: [react()],
   server: {
-    port: process.env.PORT || 5173, // Render sets the PORT environment variable
-    host: '0.0.0.0' // Bind to all network interfaces
+    port: process.env.PORT || 3000,
+    host: '0.0.0.0'
   },
   build: {
-    outDir: 'dist' // Output directory for build artifacts
+    outDir: 'dist', // Ensure this matches where you want your build output
+    rollupOptions: {
+      input: {
+        main: 'index.html' // Ensure this path is correct
+      }
+    }
   }
 });
